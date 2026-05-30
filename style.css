@@ -10,9 +10,10 @@
 .cartao {
     width: 260px ;
     height: 200px;
-    border-radius: 10px ;
+   
 }
 
 .cartao-imagem {
     width: 100%;
+     border-radius: 10px ;
 }
