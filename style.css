@@ -75,5 +75,9 @@ footer {
 
 section {
     display: flex;
-    gap: 18px;
+    flex-wrap: wrap;       /* Permite que os cartões quebrem para a linha de baixo */
+    justify-content: center; /* Centraliza os cartões na tela (fica lindo se a tela for grande) */
+    gap: 18px;             /* Mantém o espaçamento de 18px entre eles */
+    max-width: 850px;      /* Limita a largura máxima para forçar a quebra exatamente após 3 cartões */
+    margin: 0 auto;        /* Centraliza a section inteira no meio da página */
 }
