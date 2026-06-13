@@ -12,9 +12,9 @@
 }
 
 .cartao {
-    width: 260px;
-    height: 390px;
-    perspective: 1000px;
+    width: 260px ;
+    height: 200px;
+   
 }
 
 .cartao-imagem {
@@ -54,8 +54,6 @@ footer {
 
 .cartao-interno {
     position: relative;
-    width: 100%;
-    height: 100%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -78,7 +76,4 @@ footer {
 section {
     display: flex;
     gap: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
 }
